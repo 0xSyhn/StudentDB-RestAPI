@@ -97,17 +97,43 @@ namespace StudentDB.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<StudentDto>> UpdateStudent(int id, StudentDto student)
+        public async Task<ActionResult<StudentDto>> UpdateStudent(int id, UpdateStudentVM updateStudent)
         {
             try
             {
-                if (id != student.StudentId) return BadRequest("Student ID Mismatch");
+                if (id != updateStudent.StudentId) return BadRequest("Student ID Mismatch");
                 var studentToUpdate = await _studentRepository.GetStudentById(id);
                 if (studentToUpdate == null)
                 {
                     return NotFound($"Student with id = {id} Not Found.");
                 }
-                return await _studentRepository.UpdateStudent(studentToUpdate);
+
+                var update = await _studentRepository.UpdateStudent(studentToUpdate);
+
+                var existingStudentCourse = await _studentRepository.GetStudentCourseByStudentId(id);
+                if(existingStudentCourse !=  null && existingStudentCourse.CourseId != updateStudent.CourseId)
+                {
+                    var newCourse = await _studentRepository.GetCourseById(updateStudent.CourseId);
+                    if(newCourse == null)
+                    {
+                        return BadRequest("Course Not Found");
+                    }
+                    existingStudentCourse.CourseId  = updateStudent.CourseId;
+                    await _studentRepository.UpdateStudentCourse(existingStudentCourse);
+                }
+                else if(existingStudentCourse == null)
+                {
+                    var newStudentCourse = new StudentCourse
+                    {
+                        StudentId = id,
+                        CourseId = updateStudent.CourseId,
+
+                    };
+                    await _studentRepository.AddStudentCourse(newStudentCourse);
+                }
+
+                return Ok(update);
+                
             }
             catch (Exception)
             {
@@ -127,6 +153,12 @@ namespace StudentDB.API.Controllers
                 {
                     return NotFound();
                 }
+                var studentCourse = _studentRepository.GetStudentCourseByStudentId(id);
+                if(studentCourse == null)
+                {
+                    return NotFound();
+                }
+                await _studentRepository.DeleteStudentCourse(id);
                 await _studentRepository.DeleteStudentById(id);
                 await _studentRepository.ResetAutoIncrementAsync();
                 return Ok($"Student with id = {id} was deleted successfully");

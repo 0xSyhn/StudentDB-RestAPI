@@ -31,6 +31,18 @@ namespace StudentDB.API.Services
             }
         }
 
+       public async Task DeleteStudentCourse(int id)
+        {
+            var result = await _context.StudentCourses
+                .FirstOrDefaultAsync(sc => sc.StudentId == id);
+            if (result != null) {
+                _context.StudentCourses.Remove(result);
+                await _context.SaveChangesAsync();
+            }
+
+        }
+
+
         public async Task<IEnumerable<StudentDto>> GetAllStudents()
         {
             var students = await _context.Students.ToListAsync();
@@ -52,10 +64,33 @@ namespace StudentDB.API.Services
             return await _context.Courses.FindAsync(courseId);
         }
 
+        public async Task<StudentCourse> GetStudentCourseByStudentId(int studentId)
+        {
+            return await _context.StudentCourses
+                .FirstOrDefaultAsync(sc => sc.StudentId == studentId);
+        }
+
+
         public async Task AddStudentCourse(StudentCourse studentCourse)
         {
             await _context.StudentCourses.AddAsync(studentCourse);
             await _context.SaveChangesAsync();
+        }
+
+
+
+        public async Task<StudentCourse>UpdateStudentCourse(StudentCourse studentCourse)
+        {
+            var result = await _context.StudentCourses
+                .FirstOrDefaultAsync(sc => sc.StudentCourseId == studentCourse.StudentCourseId);
+            if(result != null)
+            {
+                result.StudentId = studentCourse.StudentId;
+                result.CourseId = studentCourse.CourseId;
+                await _context.SaveChangesAsync();
+                return result;
+            }
+            return null;
         }
 
         public async Task<StudentDto> UpdateStudent(StudentDto student)

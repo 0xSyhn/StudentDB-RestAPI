@@ -135,3 +135,4 @@ C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\refint\Stu
 C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\StudentDB.API.pdb
 C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\StudentDB.API.genruntimeconfig.cache
 C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\ref\StudentDB.API.dll
+C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\StudentDB.API.sourcelink.json
