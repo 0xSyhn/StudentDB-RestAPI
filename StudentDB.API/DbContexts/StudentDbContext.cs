@@ -17,6 +17,10 @@ namespace StudentDB.API.DbContexts
 
         public DbSet<Department> Departments { get; set; }
 
+        public DbSet<Users> Users { get; set; }
+        public DbSet<UserRoles> UserRoles { get; set; }
+        public DbSet<UserUserRoles> UserUsersRoles { get; set; }
+
         public StudentDbContext(DbContextOptions<StudentDbContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -61,6 +65,8 @@ namespace StudentDB.API.DbContexts
             modelBuilder.Entity<Instructor>()
                 .Property(i => i.InstructorId)
                 .ValueGeneratedNever();
+
+            
 
 
             modelBuilder.Entity<Student>().HasData(new Student
