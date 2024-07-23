@@ -66,7 +66,7 @@ namespace StudentDB.API.DbContexts
                 .Property(i => i.InstructorId)
                 .ValueGeneratedNever();
 
-            
+ 
 
 
             modelBuilder.Entity<Student>().HasData(new Student
