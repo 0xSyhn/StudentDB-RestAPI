@@ -3,56 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\dbcontexts\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\dbcontexts\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\entities\\useruserroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\entities\\useruserroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\entities\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\entities\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\migrations\\20240723061039_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\migrations\\20240723061039_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\entities\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\entities\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\entities\\useruserroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\entities\\useruserroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|c:\\users\\sayhan\\source\\repos\\studentdb\\studentdb.api\\utils\\encryptdecrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81DCAD-E2A8-44CE-BF54-2C53E0850EEB}|StudentDB.API\\StudentDB.API.csproj|solutionrelative:studentdb.api\\utils\\encryptdecrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "StudentDB.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\appsettings.Development.json",
-              "RelativeToolTip": "StudentDB.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-23T08:52:17.631Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
@@ -92,43 +67,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentDB.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\appsettings.json",
-              "RelativeToolTip": "StudentDB.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StudentDB.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\appsettings.Development.json",
+              "RelativeToolTip": "StudentDB.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-23T08:50:25.806Z",
+              "WhenOpened": "2024-07-24T11:12:51.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "StudentDB.API\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "StudentDB.API\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:18:04.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentDB.API\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentDB.API\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:55:25.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Program.cs",
+              "RelativeDocumentMoniker": "StudentDB.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Program.cs",
+              "RelativeToolTip": "StudentDB.API\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAmwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:44:49.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "StudentDB.API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "StudentDB.API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:41:37.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EncryptDecrypt.cs",
+              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Utils\\EncryptDecrypt.cs",
+              "RelativeDocumentMoniker": "StudentDB.API\\Utils\\EncryptDecrypt.cs",
+              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Utils\\EncryptDecrypt.cs",
+              "RelativeToolTip": "StudentDB.API\\Utils\\EncryptDecrypt.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:03:59.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StudentDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\DbContexts\\StudentDbContext.cs",
-              "RelativeDocumentMoniker": "StudentDB.API\\DbContexts\\StudentDbContext.cs",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\DbContexts\\StudentDbContext.cs",
-              "RelativeToolTip": "StudentDB.API\\DbContexts\\StudentDbContext.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAAEQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T06:21:13.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "UserUserRoles.cs",
               "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Entities\\UserUserRoles.cs",
               "RelativeDocumentMoniker": "StudentDB.API\\Entities\\UserUserRoles.cs",
               "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Entities\\UserUserRoles.cs",
               "RelativeToolTip": "StudentDB.API\\Entities\\UserUserRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T06:13:44.683Z"
+              "WhenOpened": "2024-07-23T06:13:44.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Entities\\UserRoles.cs",
               "RelativeDocumentMoniker": "StudentDB.API\\Entities\\UserRoles.cs",
@@ -136,104 +165,34 @@
               "RelativeToolTip": "StudentDB.API\\Entities\\UserRoles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T06:13:30.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240723061039_seed.cs",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Migrations\\20240723061039_seed.cs",
-              "RelativeDocumentMoniker": "StudentDB.API\\Migrations\\20240723061039_seed.cs",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Migrations\\20240723061039_seed.cs",
-              "RelativeToolTip": "StudentDB.API\\Migrations\\20240723061039_seed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T06:10:39.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Services\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "StudentDB.API\\Services\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Services\\StudentRepository.cs",
-              "RelativeToolTip": "StudentDB.API\\Services\\StudentRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwC0AAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T05:53:31.733Z",
+              "WhenOpened": "2024-07-23T06:13:30.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "CreateUserVM.cs",
               "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\ViewModels\\CreateUserVM.cs",
               "RelativeDocumentMoniker": "StudentDB.API\\ViewModels\\CreateUserVM.cs",
               "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\ViewModels\\CreateUserVM.cs",
               "RelativeToolTip": "StudentDB.API\\ViewModels\\CreateUserVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T05:44:27.532Z"
+              "WhenOpened": "2024-07-23T05:44:27.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "StudentDB.API\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "StudentDB.API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA/wCUAAAADAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T05:43:44.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\ViewModels\\LoginVM.cs",
-              "RelativeDocumentMoniker": "StudentDB.API\\ViewModels\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\ViewModels\\LoginVM.cs",
-              "RelativeToolTip": "StudentDB.API\\ViewModels\\LoginVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T10:15:21.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "StudentDB.API\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "StudentDB.API\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T10:13:08.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Entities\\Users.cs",
-              "RelativeDocumentMoniker": "StudentDB.API\\Entities\\Users.cs",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Entities\\Users.cs",
-              "RelativeToolTip": "StudentDB.API\\Entities\\Users.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T09:44:27.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "StudentDB.API\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\Sayhan\\source\\repos\\StudentDB\\StudentDB.API\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "StudentDB.API\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwEMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:46:35.365Z"
+              "WhenOpened": "2024-07-23T05:43:44.844Z",
+              "EditorCaption": ""
             }
           ]
         }

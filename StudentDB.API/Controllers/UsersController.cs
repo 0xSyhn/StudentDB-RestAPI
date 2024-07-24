@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using StudentDB.API.DbContexts;
 using StudentDB.API.Entities;
+using StudentDB.API.Utils;
 using StudentDB.API.ViewModels;
 
 namespace StudentDB.API.Controllers
@@ -27,7 +29,7 @@ namespace StudentDB.API.Controllers
                 if(user == null) return BadRequest("User Data is null");
                 var newUser = new Users { 
                     UserName = user.UserName,
-                    Password = user.Password,
+                    Password = EncryptDecrypt.Encrypt(user.Password),
                     UserEmail = user.UserEmail,
                     isActive=true,
                     Status = "Active",
@@ -36,6 +38,24 @@ namespace StudentDB.API.Controllers
                 };
                 var result = await _studentDbContext.Users.AddAsync(newUser);
                 await _studentDbContext.SaveChangesAsync();
+
+                foreach(var roleId in user.Roles)
+                {
+                    var role = await _studentDbContext.UserRoles.FindAsync(roleId);
+                    if(role == null)
+                    {
+                        return NotFound("Course not found");
+                    }
+                    var newUur = new UserUserRoles
+                    {
+                        UserID = newUser.UserID,
+                        UserRoleID = role.UserRoleID,
+
+                    };
+                    _studentDbContext.UserUsersRoles.Add(newUur);
+                    await _studentDbContext.SaveChangesAsync();
+                }
+
                 return Ok(result.Entity);
 
             }

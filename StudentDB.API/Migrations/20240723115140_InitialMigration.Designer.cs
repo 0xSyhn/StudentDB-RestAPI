@@ -12,8 +12,8 @@ using StudentDB.API.DbContexts;
 namespace StudentDB.API.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20240723061839_managingrelation")]
-    partial class managingrelation
+    [Migration("20240723115140_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

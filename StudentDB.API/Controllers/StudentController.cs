@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using StudentDB.API.Entities;
 using StudentDB.API.Models;
 using StudentDB.API.Services;
@@ -7,6 +8,7 @@ using StudentDB.API.ViewModels;
 namespace StudentDB.API.Controllers
 {
     [ApiController]
+    [Authorize(Roles = "Administrator")]
     [Route("api/student")]
     public class StudentController : ControllerBase
     {

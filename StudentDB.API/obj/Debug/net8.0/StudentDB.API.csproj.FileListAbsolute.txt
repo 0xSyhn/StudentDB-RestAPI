@@ -136,3 +136,6 @@ C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\StudentDB.
 C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\StudentDB.API.genruntimeconfig.cache
 C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\ref\StudentDB.API.dll
 C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\obj\Debug\net8.0\StudentDB.API.sourcelink.json
+C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Sayhan\source\repos\StudentDB\StudentDB.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

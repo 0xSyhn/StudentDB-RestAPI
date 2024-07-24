@@ -15,5 +15,7 @@ namespace StudentDB.API.ViewModels
         [Required]
         [MaxLength(250)]
         public string UserEmail { get; set; }
+
+        public ICollection<int> Roles { get; set; }
     }
 }
